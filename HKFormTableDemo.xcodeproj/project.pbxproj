@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F14CE8978BBCF86CF21016 /* libPods-HKFormTableDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDDEBAE33FBEC89A6DA2EC2 /* libPods-HKFormTableDemo.a */; };
+		C60DFB6F208717280083568F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C60DFB6E208717280083568F /* AppDelegate.m */; };
+		C60DFB72208717280083568F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C60DFB71208717280083568F /* ViewController.m */; };
+		C60DFB75208717280083568F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60DFB73208717280083568F /* Main.storyboard */; };
+		C60DFB7A208717280083568F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60DFB78208717280083568F /* LaunchScreen.storyboard */; };
+		C60DFB7D208717280083568F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C60DFB7C208717280083568F /* main.m */; };
+		C60DFB8B208718070083568F /* HKFormTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C60DFB8A208718070083568F /* HKFormTableView.m */; };
+		C60DFB8E208721C30083568F /* FormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C60DFB8D208721C30083568F /* FormBaseCell.m */; };
+		C60DFB912087327F0083568F /* HKFormSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C60DFB902087327F0083568F /* HKFormSectionItem.m */; };
+		C60DFB9420873B3D0083568F /* HKDisclosureIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C60DFB9320873B3D0083568F /* HKDisclosureIndicatorCell.m */; };
+		C65C756A208842CA000D31FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65C7569208842CA000D31FD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39E16162074B71572CE7A33F /* Pods-HKFormTableDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKFormTableDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HKFormTableDemo/Pods-HKFormTableDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9CA5211954CB7AE5E5809C42 /* Pods-HKFormTableDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKFormTableDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HKFormTableDemo/Pods-HKFormTableDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C60DFB6A208717280083568F /* HKFormTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKFormTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60DFB6D208717280083568F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C60DFB6E208717280083568F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C60DFB70208717280083568F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C60DFB71208717280083568F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C60DFB74208717280083568F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C60DFB79208717280083568F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C60DFB7B208717280083568F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60DFB7C208717280083568F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C60DFB89208718070083568F /* HKFormTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKFormTableView.h; sourceTree = "<group>"; };
+		C60DFB8A208718070083568F /* HKFormTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKFormTableView.m; sourceTree = "<group>"; };
+		C60DFB8C208721C30083568F /* FormBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormBaseCell.h; sourceTree = "<group>"; };
+		C60DFB8D208721C30083568F /* FormBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormBaseCell.m; sourceTree = "<group>"; };
+		C60DFB8F2087327F0083568F /* HKFormSectionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKFormSectionItem.h; sourceTree = "<group>"; };
+		C60DFB902087327F0083568F /* HKFormSectionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKFormSectionItem.m; sourceTree = "<group>"; };
+		C60DFB9220873B3D0083568F /* HKDisclosureIndicatorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKDisclosureIndicatorCell.h; sourceTree = "<group>"; };
+		C60DFB9320873B3D0083568F /* HKDisclosureIndicatorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKDisclosureIndicatorCell.m; sourceTree = "<group>"; };
+		C65C7569208842CA000D31FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEDDEBAE33FBEC89A6DA2EC2 /* libPods-HKFormTableDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HKFormTableDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C60DFB67208717280083568F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F14CE8978BBCF86CF21016 /* libPods-HKFormTableDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		974474B3796A4E8BB7B349CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDEBAE33FBEC89A6DA2EC2 /* libPods-HKFormTableDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C60DFB61208717280083568F = {
+			isa = PBXGroup;
+			children = (
+				C60DFB6C208717280083568F /* HKFormTableDemo */,
+				C60DFB6B208717280083568F /* Products */,
+				F55F6ED00342F85E3C3D3309 /* Pods */,
+				974474B3796A4E8BB7B349CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C60DFB6B208717280083568F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60DFB6A208717280083568F /* HKFormTableDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C60DFB6C208717280083568F /* HKFormTableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C60DFB83208717400083568F /* FormTable */,
+				C60DFB6D208717280083568F /* AppDelegate.h */,
+				C60DFB6E208717280083568F /* AppDelegate.m */,
+				C60DFB70208717280083568F /* ViewController.h */,
+				C60DFB71208717280083568F /* ViewController.m */,
+				C65C7569208842CA000D31FD /* Assets.xcassets */,
+				C60DFB73208717280083568F /* Main.storyboard */,
+				C60DFB78208717280083568F /* LaunchScreen.storyboard */,
+				C60DFB7B208717280083568F /* Info.plist */,
+				C60DFB7C208717280083568F /* main.m */,
+			);
+			path = HKFormTableDemo;
+			sourceTree = "<group>";
+		};
+		C60DFB83208717400083568F /* FormTable */ = {
+			isa = PBXGroup;
+			children = (
+				C60DFB88208717ED0083568F /* Cell */,
+				C60DFB86208717810083568F /* View */,
+				C60DFB842087174B0083568F /* Model */,
+			);
+			path = FormTable;
+			sourceTree = "<group>";
+		};
+		C60DFB842087174B0083568F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C60DFB8F2087327F0083568F /* HKFormSectionItem.h */,
+				C60DFB902087327F0083568F /* HKFormSectionItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C60DFB86208717810083568F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C60DFB89208718070083568F /* HKFormTableView.h */,
+				C60DFB8A208718070083568F /* HKFormTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C60DFB88208717ED0083568F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C60DFB8C208721C30083568F /* FormBaseCell.h */,
+				C60DFB8D208721C30083568F /* FormBaseCell.m */,
+				C60DFB9220873B3D0083568F /* HKDisclosureIndicatorCell.h */,
+				C60DFB9320873B3D0083568F /* HKDisclosureIndicatorCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F55F6ED00342F85E3C3D3309 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CA5211954CB7AE5E5809C42 /* Pods-HKFormTableDemo.debug.xcconfig */,
+				39E16162074B71572CE7A33F /* Pods-HKFormTableDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60DFB69208717280083568F /* HKFormTableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60DFB80208717280083568F /* Build configuration list for PBXNativeTarget "HKFormTableDemo" */;
+			buildPhases = (
+				AF4A1F31C2A9D7BEDB323D40 /* [CP] Check Pods Manifest.lock */,
+				C60DFB66208717280083568F /* Sources */,
+				C60DFB67208717280083568F /* Frameworks */,
+				C60DFB68208717280083568F /* Resources */,
+				33BA78D725D4647AF63402FF /* [CP] Embed Pods Frameworks */,
+				06B9ECD25C7C39A4F4D7F32D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HKFormTableDemo;
+			productName = HKFormTableDemo;
+			productReference = C60DFB6A208717280083568F /* HKFormTableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C60DFB62208717280083568F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "中施科技";
+				TargetAttributes = {
+					C60DFB69208717280083568F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C60DFB65208717280083568F /* Build configuration list for PBXProject "HKFormTableDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C60DFB61208717280083568F;
+			productRefGroup = C60DFB6B208717280083568F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60DFB69208717280083568F /* HKFormTableDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60DFB68208717280083568F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60DFB7A208717280083568F /* LaunchScreen.storyboard in Resources */,
+				C65C756A208842CA000D31FD /* Assets.xcassets in Resources */,
+				C60DFB75208717280083568F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06B9ECD25C7C39A4F4D7F32D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HKFormTableDemo/Pods-HKFormTableDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HKFormTableDemo/Pods-HKFormTableDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33BA78D725D4647AF63402FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HKFormTableDemo/Pods-HKFormTableDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF4A1F31C2A9D7BEDB323D40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HKFormTableDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C60DFB66208717280083568F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60DFB9420873B3D0083568F /* HKDisclosureIndicatorCell.m in Sources */,
+				C60DFB8E208721C30083568F /* FormBaseCell.m in Sources */,
+				C60DFB912087327F0083568F /* HKFormSectionItem.m in Sources */,
+				C60DFB72208717280083568F /* ViewController.m in Sources */,
+				C60DFB7D208717280083568F /* main.m in Sources */,
+				C60DFB8B208718070083568F /* HKFormTableView.m in Sources */,
+				C60DFB6F208717280083568F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C60DFB73208717280083568F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60DFB74208717280083568F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C60DFB78208717280083568F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60DFB79208717280083568F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C60DFB7E208717280083568F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C60DFB7F208717280083568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C60DFB81208717280083568F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA5211954CB7AE5E5809C42 /* Pods-HKFormTableDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PNAENEN2VW;
+				INFOPLIST_FILE = HKFormTableDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.HKFormTableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5579d458-acda-43d5-b7ed-892443afd65f";
+				PROVISIONING_PROFILE_SPECIFIER = hk_dev_wild;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C60DFB82208717280083568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E16162074B71572CE7A33F /* Pods-HKFormTableDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PNAENEN2VW;
+				INFOPLIST_FILE = HKFormTableDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.HKFormTableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5579d458-acda-43d5-b7ed-892443afd65f";
+				PROVISIONING_PROFILE_SPECIFIER = hk_dev_wild;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C60DFB65208717280083568F /* Build configuration list for PBXProject "HKFormTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60DFB7E208717280083568F /* Debug */,
+				C60DFB7F208717280083568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60DFB80208717280083568F /* Build configuration list for PBXNativeTarget "HKFormTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60DFB81208717280083568F /* Debug */,
+				C60DFB82208717280083568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C60DFB62208717280083568F /* Project object */;
+}
