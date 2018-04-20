@@ -18,6 +18,7 @@
 		C60DFB912087327F0083568F /* HKFormSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C60DFB902087327F0083568F /* HKFormSectionItem.m */; };
 		C60DFB9420873B3D0083568F /* HKDisclosureIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C60DFB9320873B3D0083568F /* HKDisclosureIndicatorCell.m */; };
 		C65C756A208842CA000D31FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65C7569208842CA000D31FD /* Assets.xcassets */; };
+		C6FEBDF72089B1EC006457A3 /* UIImage+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FEBDF62089B1EC006457A3 /* UIImage+Tools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		C60DFB9220873B3D0083568F /* HKDisclosureIndicatorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKDisclosureIndicatorCell.h; sourceTree = "<group>"; };
 		C60DFB9320873B3D0083568F /* HKDisclosureIndicatorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKDisclosureIndicatorCell.m; sourceTree = "<group>"; };
 		C65C7569208842CA000D31FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6FEBDF52089B1EC006457A3 /* UIImage+Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tools.h"; sourceTree = "<group>"; };
+		C6FEBDF62089B1EC006457A3 /* UIImage+Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tools.m"; sourceTree = "<group>"; };
 		EEDDEBAE33FBEC89A6DA2EC2 /* libPods-HKFormTableDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HKFormTableDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,6 +105,7 @@
 		C60DFB83208717400083568F /* FormTable */ = {
 			isa = PBXGroup;
 			children = (
+				C6FEBDF42089B1D5006457A3 /* tools */,
 				C60DFB88208717ED0083568F /* Cell */,
 				C60DFB86208717810083568F /* View */,
 				C60DFB842087174B0083568F /* Model */,
@@ -136,6 +140,15 @@
 				C60DFB9320873B3D0083568F /* HKDisclosureIndicatorCell.m */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		C6FEBDF42089B1D5006457A3 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				C6FEBDF52089B1EC006457A3 /* UIImage+Tools.h */,
+				C6FEBDF62089B1EC006457A3 /* UIImage+Tools.m */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 		F55F6ED00342F85E3C3D3309 /* Pods */ = {
@@ -282,6 +295,7 @@
 				C60DFB7D208717280083568F /* main.m in Sources */,
 				C60DFB8B208718070083568F /* HKFormTableView.m in Sources */,
 				C60DFB6F208717280083568F /* AppDelegate.m in Sources */,
+				C6FEBDF72089B1EC006457A3 /* UIImage+Tools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 #import "FormBaseCell.h"
 #import <Masonry.h>
+#import "UIImage+Tools.h"
+
 
 #define FT_COLOR(r, g, b) FT_COLOR_A(r, g, b, 1)
 #define FT_COLOR_GRAY(value) FT_COLOR(value, value, value)
@@ -45,8 +47,9 @@
 
 - (void)setUpUI
 {
-    _topBorderView = [[UIView alloc] init];
-    _topBorderView.backgroundColor = FT_COLOR_GRAY(224);
+    _topBorderView = [[UIImageView alloc] init];
+    _topBorderView.image = [UIImage imageFromColor:FT_COLOR_GRAY(224) size:CGSizeMake([UIScreen mainScreen].bounds.size.width, 1)];
+    
     [self.contentView addSubview:_topBorderView];
     [_topBorderView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.top.right.equalTo(self.contentView);
@@ -54,8 +57,8 @@
     }];
     
  
-    _bottomBorderView = [[UIView alloc] init];
-    _bottomBorderView.backgroundColor = FT_COLOR_GRAY(224);
+    _bottomBorderView = [[UIImageView alloc] init];
+    _bottomBorderView.image = [UIImage imageFromColor:FT_COLOR_GRAY(224) size:CGSizeMake([UIScreen mainScreen].bounds.size.width, 1)];
 
     [self.contentView addSubview:_bottomBorderView];
     [_bottomBorderView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -79,9 +82,8 @@
         make.left.equalTo(_leftImageView.mas_right).offset(0);
     }];
     
-    _separatorBorderView = [[UIView alloc] init];
-    _separatorBorderView.backgroundColor = FT_COLOR_GRAY(224);
-    
+    _separatorBorderView = [[UIImageView alloc] init];
+    _separatorBorderView.image = [UIImage imageFromColor:FT_COLOR_GRAY(224) size:CGSizeMake([UIScreen mainScreen].bounds.size.width, 1)];
     [self.contentView addSubview:_separatorBorderView];
     [_separatorBorderView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.right.equalTo(self.contentView);

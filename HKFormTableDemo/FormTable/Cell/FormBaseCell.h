@@ -10,9 +10,9 @@
 
 @interface FormBaseCell : UITableViewCell
 
-@property (nonatomic, strong) UIView *topBorderView;
-@property (nonatomic, strong) UIView *separatorBorderView;
-@property (nonatomic, strong) UIView *bottomBorderView;
+@property (nonatomic, strong) UIImageView *topBorderView;
+@property (nonatomic, strong) UIImageView *separatorBorderView;
+@property (nonatomic, strong) UIImageView *bottomBorderView;
 
 @property (nonatomic, strong) UIImageView *leftImageView;
 @property (nonatomic, strong) UILabel *titleLabel;
